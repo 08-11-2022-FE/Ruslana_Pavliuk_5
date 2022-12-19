@@ -98,19 +98,27 @@
     justify-content: space-between;
 }
 .main-skills-ranking-item {
-    display: inline-block;
     height: 230px;
-    position: relative;
 }
 .main-skills-ranking-item img {
     margin: 0 auto;
     display: block;
 }
-.main-skills-ranking-item img:last-child {
-    padding-top: 28px;
+.main-skills-ranking span {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #828282;
+    margin-top: 25px;
+    margin-bottom: 80px;
 }
-.main-skills-ranking-item:last-child img:last-child {
-    padding-top: 47px;
+.ranking-stars img {
+    display: inline-block;
 }
 .main-portfolio-figcaption {
     padding-top: 40px;
@@ -142,21 +150,22 @@
 .footer-info {
     padding-bottom: 60px;
 }
-.footer-button {
-    margin: 0 auto;
+
+.footer-button-link {
     display: block;
     width: 180px;
     height: 44px;
+    margin: 0 auto;
     background: #070707;
     border-radius: 22px;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-}
-.footer-button-link {
     color: white;
     text-decoration: none;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 .footer-social-media {
     padding-top: 30px;
@@ -173,5 +182,8 @@
 }
 .footer-social-media-text {
     padding-bottom: 100px;
+}
+.footer-social-media-text span {
+    display: block;
 }
 /* Styling for footer ends */
